@@ -4,18 +4,18 @@ public class Topic {
 
 	private String id;
 	private String name;
-	private String decription;
+	private String description;
 	
 	public Topic() {
 
 	}
 	
 	
-	public Topic(String id, String name, String decription) {
+	public Topic(String id, String name, String description) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.decription = decription;
+		this.description = description;
 	}
 	
 	public String getId() {
@@ -30,11 +30,11 @@ public class Topic {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDecription() {
-		return decription;
+	public String getDescription() {
+		return description;
 	}
-	public void setDecription(String decription) {
-		this.decription = decription;
+	public void setDecription(String description) {
+		this.description = description;
 	}
 	
 	
